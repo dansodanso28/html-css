@@ -1,0 +1,169 @@
+/* global stylish*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+a{
+    color:#fff ;
+    text-decoration: none;
+    font-size: 15px;
+   
+}
+
+html{
+    font-size: 62.5%;  
+}
+
+ol,ul{
+  list-style: none;
+
+}
+
+
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+/* styling the nav bar*/
+.joel{
+     background-color: rgb(13, 77, 85) ;
+    color: #fff;
+    z-index: 99;
+    position: sticky;
+    top: 0%;
+}
+span{
+    color: rgb(150, 72, 8);
+}
+.joel ol{
+    display: flex;
+    flex-basis: 25rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.joel a:hover{
+    color: bisque;
+    padding: 0.1rem 0rem;
+    line-height: 12px;
+    
+}
+.joel li:hover{
+    
+   
+   line-height: 20px;
+}
+
+
+
+.joel h1{
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 25rem;
+    font-size: xx-large;
+}
+
+.philip{
+    display: flex;
+    min-height: 7vh;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+     margin: auto;
+    flex-wrap: wrap;
+    
+    
+
+}
+
+#h{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+/* working on the home page*/
+.sec{
+    background: linear-gradient(rgba(10, 10, 10, 0.804), transparent), url("DAA.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.adwoa{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    min-height: 85vh;
+    flex-direction:column ;
+
+    
+}
+ button{
+    border-radius: 5px;
+    padding: 1rem 4rem ;
+    color: rgb(254, 254, 254);
+    background-color: rgb(13, 77, 85);
+    font-size: larger;
+}
+.adwoa h1{
+    color: white;
+    padding: 2rem;
+    font-size: xx-large;
+
+}
+
+button:hover{
+    color: bisque;
+    cursor: pointer;
+    background-color:  rgb(146, 102, 67);
+}
+
+/*styling footer*/
+footer{
+    background-color: rgb(13, 77, 85) ;
+    
+
+}
+.FooterChild{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box{
+    width: 19%;
+    min-height: 20vh;
+    flex: 1 1 20rem;
+}
+.FChild1 {
+   flex-grow: 2;
+   flex-basis: 30rem;
+    
+}
+.FChild1 h1{
+    padding-top: 10rem;
+    color: rgb(150, 72, 8);
+
+}
+.FChild2,.FChild3,.FChild4{
+    padding: 4rem;
+    
+}
+.FChild4 ol{
+    display: flex;
+    flex: 1 1 26rem;
+    justify-content: space-between;
+    padding-top: 4rem;
+   
+    
+}
+.FChild2  ul, .FChild3 ul{
+    line-height: 2rem;
+}

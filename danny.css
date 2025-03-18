@@ -1,0 +1,38 @@
+body{
+ background: url(dd.jpeg);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-attachment: fixed; 
+ background-size: cover;
+}
+
+.danny{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.adwoa{
+  padding: 20px 40px;
+  margin: 2rem 5rem;
+  border-radius: 3px;
+  border: none;
+  background-color: lightskyblue;
+  color: black;
+  cursor: pointer;
+}
+.adwoa:hover{
+  background:linear-gradient(90deg, #101a8e, #0f1010, #ad8715, #25d32b, #e31f11);
+  background-size: 400%;  
+  animation:blink 8s linear infinite;
+}
+@keyframes 
+blink{
+  from{
+background-position: 0%;
+  }
+  to{
+    background-position: 100%;
+  }
+}

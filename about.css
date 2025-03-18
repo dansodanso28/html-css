@@ -1,0 +1,38 @@
+.about{
+    min-height: 85vh;
+    background: linear-gradient(rgba(10, 10, 10, 0.768), transparent), url( "DAA.jpg") ;    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    
+   
+}
+.about h1{
+    padding-left: 35rem;
+    padding-top: 4rem;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.dan{
+    text-align: center;
+    padding:2rem ;
+    font-style: italic;
+    line-height: 6rem;
+    font-size:20px;
+    width: 90%;
+    margin: auto;
+}
+.aj{
+    text-align: center;
+    border-radius: 10px;
+    padding: 3rem;
+    line-height: 3rem;
+    font-size: 20px;
+    
+}
+.aj img{
+    border-radius: 10px;
+}
