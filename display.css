@@ -49,17 +49,8 @@ span{
     align-items: center;
    
 }
-.joel a:hover{
-    color: bisque;
-    padding: 0.1rem 0rem;
-    line-height: 12px;
-    
-}
-.joel li:hover{
-    
-   
-   line-height: 20px;
-}
+
+
 
 
 
@@ -171,10 +162,15 @@ footer{
 }
 /* media quarry*/
 @media screen and (max-width: 814px) {
+  
 .joel h1{
     text-align: center;
     padding-bottom: 0.5rem;
 
+}
+.joel h1{
+    padding-bottom: 0.5rem;
+    
 }
 .joel{
     padding-bottom: 1.4rem;
@@ -191,4 +187,5 @@ footer{
     width: 100%;
 }
     
+
 }
