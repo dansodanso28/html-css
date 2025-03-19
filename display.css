@@ -175,8 +175,18 @@ footer{
 
 }
 .joel{
-    padding-bottom: 1rem;
-    padding-top: 0.4rem;
+    padding-bottom: 1.4rem;
+    padding-top: 1rem;
+}
+.card .card-icon{
+    padding: 0rem 2rem;
+}
+.card p{
+    padding: 0rem 1rem;
+}
+
+.wrapper{
+    width: 100%;
 }
     
 }

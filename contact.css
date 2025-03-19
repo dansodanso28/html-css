@@ -42,3 +42,13 @@
 .wrapper input{
     padding: 1rem 3rem;
 }
+/* media quarry*/
+@media screen and (max-width:814px) {
+.joel h1{
+    padding-bottom: 0.5rem;
+    
+}
+    .wrapper{
+    width: 100%;
+}
+}
