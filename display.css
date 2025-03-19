@@ -93,6 +93,7 @@ span{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     
 }
 .adwoa{
@@ -172,6 +173,7 @@ footer{
 @media screen and (max-width: 814px) {
 .joel h1{
     text-align: center;
+    padding-bottom: 0.5rem;
 
 }
 .joel{
