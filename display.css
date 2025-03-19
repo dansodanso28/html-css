@@ -86,6 +86,7 @@ span{
 #h{
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
 /* working on the home page*/
 .sec{
     background: linear-gradient(rgba(10, 10, 10, 0.804), transparent), url("DAA.jpg");
@@ -166,4 +167,16 @@ footer{
 }
 .FChild2  ul, .FChild3 ul{
     line-height: 2rem;
+}
+/* media quarry*/
+@media screen and (max-width: 814px) {
+.joel h1{
+    text-align: center;
+
+}
+.joel{
+    padding-bottom: 1rem;
+    padding-top: 0.4rem;
+}
+    
 }
