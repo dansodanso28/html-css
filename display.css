@@ -80,7 +80,7 @@ span{
 
 /* working on the home page*/
 .sec{
-    background: linear-gradient(rgba(10, 10, 10, 0.804), transparent), url("DAA.jpg");
+    background: linear-gradient(rgba(10, 10, 10, 0.804), transparent), url("images/DAA.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

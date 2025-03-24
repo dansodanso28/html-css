@@ -1,0 +1,182 @@
+
+.parent{
+    background: linear-gradient(rgba(10,10,10, 0.8) , transparent),url(images/juu.jpeg);
+    opacity: 0.9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 85vh;
+    color: white; 
+     padding: 20px;
+    margin-top: 20px;
+
+
+}
+
+.parent-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+  
+}
+.parent-child h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+    margin-top: 4rem;
+    font-style: normal;
+
+}
+h3{
+    padding-bottom: 1rem;
+  
+}
+.pc-form{
+    margin-top: 5rem;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+}
+
+
+form{
+    background: white;
+    width: 100%;
+    height: 5.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+   
+}
+.pc-form input{
+    flex: 1 1 26rem;
+    border: none;
+    outline: none;
+}
+.pc-form button{
+    background: tomato;
+    padding: 10px 50px;
+    border:none;
+    outline: none;
+    color:white;
+    height: 5.5rem;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.pc-form i{
+    color: black;
+    padding: 10px;
+}
+.list{
+ width: 50%;
+ margin: auto;
+ flex-wrap: wrap;
+
+    
+}
+.list ol{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    flex: 1 1 26rem;  
+}
+.list h3{
+    font-size: 20px;
+    text-align: center;
+}
+.list h3 a{
+    font-size: 20px;
+    font-style: italic;
+}
+.list ol li{ 
+     background-color: rgb(189, 197, 196);
+     border-radius: 5px;
+
+}
+.list ol li a:hover{
+    color: tomato;
+}
+.under{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.under h1{
+    font-size: 60px;
+    margin-bottom: 3rem;
+    letter-spacing: 2px;
+}
+.under h2{
+    font-size: 30px;
+    font-style: italic;
+    opacity: 0.5;
+}
+.box-s{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    min-height: 70vh;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.box-s-child{
+    text-align: center;
+    flex: 1 1 25rem;
+    min-height: 45vh;
+    margin: 2rem 5rem;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1),0px 20px 20px rgba(0, 0, 0, 0.1);
+}
+.box-s-child .pic{
+    background: rgb(183, 140, 110);
+    padding: 2rem;
+    margin-bottom: 4rem;
+}
+.box-s-child h3{
+    font-size: 35px;
+    margin-bottom: 3rem;
+}
+.box-s-child p{
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+/* media quarry*/
+@media screen and (max-width: 814px) {
+  
+.joel h1{
+    text-align: center;
+    padding-bottom: 0.5rem;
+
+}
+.joel h1{
+    padding-bottom: 0.5rem;
+    
+}
+.joel{
+    padding-bottom: 1.4rem;
+    padding-top: 1rem;
+}
+.card .card-icon{
+    padding: 0rem 2rem;
+}
+.card p{
+    padding: 0rem 1rem;
+}
+
+.wrapper{
+    width: 100%;
+}
+.list{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin-top: 20px;
+flex: 1 1 26rem;  
+}  
+
+}

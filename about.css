@@ -1,6 +1,6 @@
 .about{
     min-height: 85vh;
-    background: linear-gradient(rgba(10, 10, 10, 0.768), transparent), url( "DAA.jpg") ;    
+    background: linear-gradient(rgba(10, 10, 10, 0.768), transparent), url( "images/DAA.jpg") ;    
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
